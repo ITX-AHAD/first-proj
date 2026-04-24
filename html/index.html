@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>BMW M5 - Ultimate Driving Machine</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="nav-container">
+        <div class="container">
             <div class="logo">
-                <h1>JDC Foundation</h1>
+                <span class="logo-text">BMW M5</span>
             </div>
-            <ul class="nav-menu">
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#team">Team</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#specs">Specifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -26,100 +26,134 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h2>Welcome to JDC Foundation</h2>
-            <p>Empowering Communities, Changing Lives</p>
-            <button class="cta-button">Learn More</button>
+            <h1 class="hero-title">BMW M5</h1>
+            <p class="hero-subtitle">The Ultimate Driving Machine</p>
+            <p class="hero-description">Experience unparalleled performance and luxury combined</p>
+            <button class="cta-button">Explore More</button>
         </div>
+        <img src="https://www.bing.com/th/id/OIP.zJqE3P6u0zyhC7HPxefCQQHaEK?w=280&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5" class="hero-image">
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Features Section -->
+    <section id="features" class="features">
         <div class="container">
-            <h2>About Us</h2>
-            <p>
-                JDC Foundation is dedicated to creating positive social impact through 
-                innovative programs and community engagement. With a mission to empower 
-                individuals and strengthen communities, we work tirelessly to build a 
-                better future for all.
-            </p>
-            <div class="about-features">
-                <div class="feature">
-                    <h3>Our Vision</h3>
-                    <p>To create a world where everyone has access to opportunities for growth and development.</p>
+            <h2 class="section-title">Why Choose BMW M5?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>625 HP and 553 lb-ft of torque delivers thrilling acceleration and power</p>
                 </div>
-                <div class="feature">
-                    <h3>Our Mission</h3>
-                    <p>To empower communities through education, support, and sustainable development initiatives.</p>
+                <div class="feature-card">
+                    <div class="feature-icon">🏎️</div>
+                    <h3>Speed</h3>
+                    <p>0-60 mph in 3.1 seconds with a top speed of 155+ mph</p>
                 </div>
-                <div class="feature">
-                    <h3>Our Values</h3>
-                    <p>Integrity, compassion, innovation, and commitment to excellence guide everything we do.</p>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Safety</h3>
+                    <p>Advanced safety features and cutting-edge technology for protection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Luxury</h3>
+                    <p>Premium interior with leather seats and state-of-the-art technology</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Engineering</h3>
+                    <p>Twin-turbocharged engine with advanced fuel injection system</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Design</h3>
+                    <p>Aerodynamic design with stunning curves and iconic BMW styling</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Programs Section -->
-    <section id="programs" class="programs">
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
         <div class="container">
-            <h2>Our Programs</h2>
-            <div class="programs-grid">
-                <div class="program-card">
-                    <h3>Education Initiative</h3>
-                    <p>
-                        Providing scholarships, mentorship, and educational resources to 
-                        underprivileged students to unlock their potential.
-                    </p>
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="data:image/webp;base64,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" alt="BMW M5 Front View">
+                    <div class="gallery-overlay">
+                        <p>Front View</p>
+                    </div>
                 </div>
-                <div class="program-card">
-                    <h3>Community Support</h3>
-                    <p>
-                        Supporting local communities through outreach programs, healthcare initiatives, 
-                        and emergency relief services.
-                    </p>
+                <div class="gallery-item">
+                    <img src="https://www.bing.com/th/id/OIP.-FrfP5ZAfyDvsHSVU5Kg6QHaFc?w=236&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5 Side View">
+                    <div class="gallery-overlay">
+                        <p>Side View</p>
+                    </div>
                 </div>
-                <div class="program-card">
-                    <h3>Skill Development</h3>
-                    <p>
-                        Training programs designed to equip individuals with practical skills 
-                        for career advancement and entrepreneurship.
-                    </p>
+                <div class="gallery-item">
+                    <img src="https://www.bing.com/th/id/OIP.0cVVcJcDuyFg13zmSW6YlAHaEK?w=274&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5 Interior">
+                    <div class="gallery-overlay">
+                        <p>Luxury Interior</p>
+                    </div>
                 </div>
-                <div class="program-card">
-                    <h3>Environmental Projects</h3>
-                    <p>
-                        Supporting sustainable development and environmental conservation initiatives 
-                        for a healthier planet.
-                    </p>
+                <div class="gallery-item">
+                    <img src="https://www.bing.com/th/id/OIP.URhtCGvR0WM3rFlcbxqo_wHaDq?w=221&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5 Wheel">
+                    <div class="gallery-overlay">
+                        <p>Premium Wheels</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.bing.com/th/id/OIP.-__nrQQNf8czBpSHQxNd-wHaE8?w=267&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5 Racing">
+                    <div class="gallery-overlay">
+                        <p>Performance</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.bing.com/th/id/OIP.3lGw_ZeP0KBIJ_D5rfyihgHaEK?w=281&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="BMW M5 Night">
+                    <div class="gallery-overlay">
+                        <p>Elegant Design</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="team">
+    <!-- Specifications Section -->
+    <section id="specs" class="specifications">
         <div class="container">
-            <h2>Our Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-avatar">JD</div>
-                    <h3>John Davis</h3>
-                    <p>Executive Director</p>
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <h4>Engine</h4>
+                    <p>4.4L Twin-Turbocharged V8</p>
                 </div>
-                <div class="team-member">
-                    <div class="member-avatar">SS</div>
-                    <h3>Sarah Smith</h3>
-                    <p>Program Manager</p>
+                <div class="spec-item">
+                    <h4>Horsepower</h4>
+                    <p>625 HP @ 5500 RPM</p>
                 </div>
-                <div class="team-member">
-                    <div class="member-avatar">MC</div>
-                    <h3>Maria Chen</h3>
-                    <p>Community Liaison</p>
+                <div class="spec-item">
+                    <h4>Torque</h4>
+                    <p>553 lb-ft @ 1800 RPM</p>
                 </div>
-                <div class="team-member">
-                    <div class="member-avatar">RJ</div>
-                    <h3>Robert Johnson</h3>
-                    <p>Finance Officer</p>
+                <div class="spec-item">
+                    <h4>Acceleration</h4>
+                    <p>0-60 mph in 3.1 seconds</p>
+                </div>
+                <div class="spec-item">
+                    <h4>Top Speed</h4>
+                    <p>155+ mph (electronically limited)</p>
+                </div>
+                <div class="spec-item">
+                    <h4>Transmission</h4>
+                    <p>8-Speed Automatic Transmission</p>
+                </div>
+                <div class="spec-item">
+                    <h4>Fuel Economy</h4>
+                    <p>15 city / 23 highway / 18 combined</p>
+                </div>
+                <div class="spec-item">
+                    <h4>Fuel Capacity</h4>
+                    <p>20.0 gallons</p>
                 </div>
             </div>
         </div>
@@ -128,24 +162,21 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p><strong>Address:</strong> 123 Foundation Street, Community City, CC 12345</p>
-                    
-                    <p><strong>Email:</strong> info@jdcfoundation.org</p>
-                    <p><strong>Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@bmwm5.com</p>
+                    <p><strong>Address:</strong> 123 Luxury Lane, </p>
+                    <p><strong>Hours:</strong> Mon - Sun: 9:00 AM - 6:00 PM</p>
                 </div>
-                <div class="contact-form">
-                    <h3>Send us a Message</h3>
-                    <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
@@ -153,9 +184,29 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 JDC Foundation. All rights reserved.</p>
-            <p>Making a difference in communities worldwide.</p>
+            <p>&copy; 2026 BMW M5. All rights reserved. | Ultimate Driving Machine</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
